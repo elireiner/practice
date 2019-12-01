@@ -36,7 +36,7 @@ function getNews(query) {
 
 function handleNews() {
     $('#news-form').submit(event => {
-        event.preventDefault;
+        event.preventDefault();
         let input = $('#query').val();
         getNews(input);
     })
